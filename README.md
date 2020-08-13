@@ -1,2 +1,2 @@
-# flappy_bird
-Creating a flappy_bird game to understand pygame.
+# flappy bird
+Creating a flappy bird game to understand pygame.
