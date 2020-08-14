@@ -12,7 +12,7 @@ def create_pipe():
 
 def move_pipes(pipes):
     for pipe in pipes:
-        pipe.centerx -= 2.5
+        pipe.centerx -= 1.5
     return pipes
 
 def draw_pipes(pipes):
@@ -68,7 +68,7 @@ while True:
                     bird_movement = 0
                 else: 
                     bird_movement = 0
-                    bird_movement -= 6
+                    bird_movement -= 4
             if event.key == pygame.K_SPACE and game_active == False:
                 game_active = True
                 pipe_list.clear()
