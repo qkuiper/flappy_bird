@@ -7,7 +7,7 @@ Pylint needs to be installed in the virtual environment using "pip install pylin
 Open Command Palette (ctrl + shift + p) and click on "Preferences: Open Settings (JSON)".
 Add this line into JSON : "python.linting.pylintArgs": ["--generate-members"] to make sure pylint works.
 
-ANOTHER NOTE: syntax coloring is broken the settings json file should include following setting:
+ANOTHER NOTE: syntax coloring is broken, the settings json file should include following setting:
     
     "editor.tokenColorCustomizations": {
         "textMateRules": [
