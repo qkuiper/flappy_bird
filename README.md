@@ -6,3 +6,16 @@ Pylint is a usefull module which come not installed upon creation if the virtual
 Pylint needs to be installed in the virtual environment using "pip install pylint".
 Open Command Palette (ctrl + shift + p) and click on "Preferences: Open Settings (JSON)".
 Add this line into JSON : "python.linting.pylintArgs": ["--generate-members"] to make sure pylint works.
+
+ANOTHER NOTE: syntax coloring is broken the settings json file should include following setting:
+    
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+        {
+            "scope": "meta.function-call.generic.python",
+            "settings": {
+            "foreground": "#FF0000"
+            }
+        }
+        ]
+    },
